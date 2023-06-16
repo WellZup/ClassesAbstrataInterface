@@ -3,7 +3,7 @@ package ExercicioB2;
 public class Exercicio02 {
     public static void main(String[] args) {
         ContaPoupanca contaPoupanca = new ContaPoupanca();
-        ContaCorrente contaCorrente = new ContaCorrente(1000.0);
+        ContaCorrente contaCorrente = new ContaCorrente(2000.0);
         SeguroDeVida seguroDeVida = new SeguroDeVida();
 
         double tributoContaPoupanca = contaPoupanca.calcularTributos();

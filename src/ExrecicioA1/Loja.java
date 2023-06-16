@@ -17,15 +17,5 @@ public class Loja {
 
     }
 
-    public static void buscarProduto(Item produto, Item[] produtos) {
-        for (int i = 0; i < produtos.length; i++) {
-            if (produtos[i].buscarPorCodigoDeBarras(produto.codigoDeBarras)) {
-                System.out.println("O produto " + produto.nome + " está na posição " + i + " do vetor.");
-                return;
-            }
-        }
-        System.out.println("O produto " + produto.nome + " não foi encontrado no vetor.");
-    }
-
 
 }
