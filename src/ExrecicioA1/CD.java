@@ -1,7 +1,7 @@
 package ExrecicioA1;
 
 public class CD extends Item{
-    private int numeroDeFaixas;
+    private final int numeroDeFaixas;
 
     public CD(String nome, double preco, int numeroDeFaixas, String codigoDeBarras) {
         super(nome, preco, codigoDeBarras);

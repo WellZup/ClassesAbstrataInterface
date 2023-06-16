@@ -1,7 +1,7 @@
 package ExrecicioA1;
 
  class Livro extends Item {
-     private String autor;
+     private final String autor;
      public Livro(String nome, String autor, String codigoDeBarras, double preco) {
          super(nome, preco, codigoDeBarras);
          this.autor = autor;

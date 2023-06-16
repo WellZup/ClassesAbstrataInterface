@@ -1,7 +1,7 @@
 package ExrecicioA1;
 
 public class DVD extends Item{
-    private int duracao;
+    private final int duracao;
 
     public DVD (String nome, double preco, int duracao, String codigoDeBarras) {
         super(nome, preco, codigoDeBarras);
